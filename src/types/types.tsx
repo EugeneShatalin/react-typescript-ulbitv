@@ -8,3 +8,9 @@ export interface IUser {
     name: string
     address: IAddress
 }
+
+export interface ITodo {
+    id: number
+    title: string
+    completed: boolean
+}
